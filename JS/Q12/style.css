@@ -1,0 +1,55 @@
+bbody {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #blogList {
+    margin-top: 20px;
+  }
+  .blog {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .blog h3 {
+    margin-top: 0;
+  }
+  
+  .blog p {
+    margin-bottom: 0;
+  }
+
+  
+#addBlogForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #addBlogForm input,
+  #addBlogForm textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+  
+  #addBlogForm button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: black;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    margin-bottom: 50px;
+  }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    input {
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+    <input type="text" id="searchInput" placeholder="Search...">
+  <div id="searchResults"></div>
+
+  <script>
+    // Debouncing function
+    function debounce(func, delay) {
+      let timerId;
+      
+      return function() {
+        clearTimeout(timerId);
+        
+        timerId = setTimeout(() => {
+          func.apply(this, arguments);
+        }, delay);
+      };
+    }
+    // Search function to be debounced
+    function performSearch(event) {
+      const searchTerm = event.target.value;
+      
+      // Simulating an asynchronous API call
+      // Replace this with your actual search logic
+      setTimeout(() => {
+        document.getElementById('searchResults').textContent = `Search results for: ${searchTerm}`;
+      }, 500);
+    }
+    
+    // Debounce the search function
+    const debouncedSearch = debounce(performSearch, 300);
+    
+    // Attach the debounced function to the input's 'input' event
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('input', debouncedSearch);
+    </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+.main-container{
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nav-container{
+    display: flex;
+    gap: 20px;
+}
+.navLeft{
+    background-color: #6fa1e8;
+    width: 30%;
+    padding: 30px;
+}
+.navRight{
+    background-color: #acb4be;
+    width: 70%;
+    padding: 30px;
+}
+.second-container{
+    background-color: #6d7176;
+    height: 200px;
+}
+.third-container{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    width: 30%;
+    padding: 100px;
+    background-color: #b3deec;
+}
+.footer{
+    background-color: #ccd0d5;
+    padding: 150px;
+}
+
+@media screen and (max-width: 500px){
+    .navLeft{ 
+        width: 30%;
+        padding: 20px;
+    }
+    .navRight{
+        width: 70%;
+        padding: 20px;
+    }
+    .second-container{
+        padding:0px;
+        width: 100%
+    }
+    .third-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .box{
+        background-color: #b3deec;
+        width: 100%;
+        padding: 0px;
+        height: 70px;
+    }
+    .footer{
+        padding: 0px;
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 725px){
+    .navLeft{ 
+        width: 30%;
+    }
+    .navRight{
+        width: 70%;
+    }
+    
+    .box{
+        width: 33%;
+        height: 120px;
+        padding: 0px;
+    }
+}

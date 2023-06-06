@@ -1,0 +1,21 @@
+.pinkBox{
+    padding: 0px 10px;
+    background-color: #df8888;
+    border: solid 1px #000;
+}
+
+.blueBox{
+    padding: 0px 10px;
+    background-color: #8bc9de;
+    border: solid 1px #000;
+}
+.greenBox{
+    padding: 0px 10px;
+    background-color: #77f0ae;
+    border: solid 1px #000;
+}
+.yellowBox{
+    padding: 0px 10px;
+    background-color: #e9d382;
+    border: solid 1px #000;
+}

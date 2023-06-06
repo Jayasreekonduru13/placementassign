@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+    padding: 20px 0px;
+}
+.nav-section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #093f8f;
+    font-weight: 600;
+}
+.searchElement{
+    display: flex;
+    border: solid 1px;
+   border-radius: 6px;
+   padding: 9px;
+   width: 50%;
+   gap: 10px;
+}
+.search-icon{
+    width: 20px;
+
+}
+input{
+    border: none;
+    font-size: 15px;
+    color: #093f8f;
+    font-weight: 600;
+}
+.logo{
+    width: 10%;
+}
+
+.listSection{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    font-size: 18px;
+    color: #093f8f;
+    font-weight: 600;
+}
+.thirdContainer{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    font-size: 38px;
+    color: #082a5d;
+    font-weight: 700;
+}
+.breakLine{
+    width:150px;
+    border-width: 4px;
+    color: #f6980a;
+    text-align: center;
+}
+.thirdSub{
+    display: flex;
+    gap: 200px;  
+}
+.thirdItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    width: 230px;
+}
+.count{
+    font-size: 30px;
+    font-weight: 700;
+    color: #082a5d; 
+}
+.detail{
+    font-size: 30px;
+    font-weight: 700;
+    color: #082a5d;
+}
+.fourthSection{
+    text-align: center;
+    padding: 100px 0px;
+    background-color: #e3e9f2d8;
+}
+.fourHeading{
+    font-weight: 700;
+    color: #082a5d;
+}
+.fourItems{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.fifthContainer{
+    padding: 100px 0px;
+}
+.fifthHeading{
+    text-align: center;
+    font-weight: 700;
+    color: #082a5d;
+}
+.fifthItems{
+    display: flex;
+    padding: 50px 50px;
+    gap: 50px;
+}
+.fifthItem{
+    width: 33%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px #e9edf5;
+}
+.studentImage{
+    border-radius: 50%;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.courseImage{
+    width: 350px;
+    
+}
+
+.liveButton{
+    background-color: #8fe7e7;
+    border:none;
+    padding: 10px;
+    border-radius: 8px;
+    
+
+}
+.shadowItem{
+    box-shadow: 4px 4px 4px 4px #e9edf5;
+    padding: 30px 20px;
+    border-radius: 12px;
+}
+.seventhSection{
+    margin: 100px 0px;
+}
+.sectionheading{
+    color: #082a5d;
+}
+.items{
+    display: flex;
+    gap: 50px
+}
+.productsSection{
+    margin: 100px 0px;
+}
+.productItems{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 180px;
+}
+.productItem{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer{
+    background-color: #233c7b;
+    color: #e0e0e0;
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.footerItem{
+    width: 30%;
+}
+.companyfooter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    line-height: 0%;
+}
